@@ -1,13 +1,10 @@
 ## Practica07 - Ayman Sbay Zekkari
 
-Informacio important del .env necessaria per a la correcta execució del programa:
+Informacio important que has de tenir en compte per a poder provar la practica:
 
 ```
-MAIL_MAILER=smtp
-MAIL_HOST=sandbox.smtp.mailtrap.io
-MAIL_PORT=2525
-MAIL_USERNAME=8d55bb0739abf0
-MAIL_PASSWORD=cfaaa4b1234c51
+- Per a poder provar la practica has de fer servir la comanda composer install per a poder instal·lar les dependencies. Aixo pot trigar una bona estona.
+- Has de configurar el fitxer .env amb les claus de Google i GitHub per a poder fer servir l'autenticacio amb aquests serveis i el captcha. (Aquestes claus las deixare en el fitcher claus.txt, las has de copiar i enganxar en el fitxer .env)
 ```
 
 ## Descripció
