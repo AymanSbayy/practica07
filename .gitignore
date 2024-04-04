@@ -1,1 +1,8 @@
-.env
+.env :
+    @echo "Creating .env file"
+    @echo "export GO111MODULE=on" > .env
+    @echo "export GOPROXY=https://proxy.golang.org" >> .env
+    @echo "export GOSUMDB=sum.golang.org" >> .env
+    @echo "export GOFLAGS=-mod=vendor" >> .env
+vendor:
+    @dep ensure
