@@ -5,6 +5,7 @@ Informacio important que has de tenir en compte per a poder provar la practica:
 ```
 - Per a poder provar la practica has de fer servir la comanda "composer install" per a poder instal·lar les dependencies. Aixo pot trigar una bona estona.
 - Has de configurar el fitxer .env amb les claus de Google i GitHub per a poder fer servir l'autenticacio amb aquests serveis i el captcha. (Aquestes claus las deixare en el fitcher claus.txt en el zip del projecte que entregare per el moodle, las has de copiar i enganxar en el fitxer .env)
+- Has de cambiar la teva extensio del link per a poder entrar amb el domini .com "practica07.com", ja que es el domini que he fet servir per a fer les redireccions dels callbacks de Google i GitHub.
 ```
 
 ## Descripció
